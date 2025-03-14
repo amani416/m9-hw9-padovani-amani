@@ -134,6 +134,10 @@ footer {
 
 @media screen and (max-width: 500px) {
    /* Header fix */
+   header {
+    padding: 12px 0;
+  }
+
   header > nav {
     display: block;
   }
