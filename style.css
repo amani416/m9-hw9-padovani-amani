@@ -154,7 +154,7 @@ footer {
 
   /* making sure text stays inside image banner */
   main > section.hero {
-    height: 200px; 
+    height: 300px; 
     padding: 0 16px; 
   }
 
