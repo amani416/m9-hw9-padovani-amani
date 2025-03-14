@@ -180,17 +180,9 @@ footer {
   }
   /* centering images in article End*/
 
-
-  /* fixing bottom margins*/
-  main > article {
-    padding: 48px 96px;
-    margin-bottom: 24px;
-  }
-  /* fixing bottom margins End*/
-
   /* Reducing h1 text size */
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   /* Reducing h1 text size End*/
 }
