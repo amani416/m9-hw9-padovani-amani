@@ -164,5 +164,13 @@ footer {
   }
   /* making sure text stays inside image banner */
 
+  main > article img {
+    display: block;           
+    margin: 0 auto;          
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 6px;
+  }
+
   
 }
