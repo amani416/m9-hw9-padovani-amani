@@ -143,10 +143,14 @@ footer {
     margin: 10px 0;
     text-align: center;
   }
-  
-  nav > a.logo {
-    margin-right: 0;
+   /* Header fix-end */
+
+   /* Padding fixed to make article text easier to read */
+   main article {
+    padding: 18px 20px;
+    text-align: center;
   }
-   /* Header fix end */
+  /* Padding fixed to make article text easier to read-end */
+
   
 }
