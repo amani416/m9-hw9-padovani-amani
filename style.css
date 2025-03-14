@@ -146,11 +146,23 @@ footer {
    /* Header fix-end */
 
    /* Padding fixed to make article text easier to read */
-   main article {
+  main article {
     padding: 18px 20px;
     text-align: center;
   }
   /* Padding fixed to make article text easier to read-end */
+
+  /* making sure text stays inside image banner */
+  main > section.hero {
+    height: 200px; 
+    padding: 0 16px; 
+  }
+
+  section.hero > .call-to-action {
+    font-size: 1.5rem; 
+    padding: 0 20px; 
+  }
+  /* making sure text stays inside image banner */
 
   
 }
