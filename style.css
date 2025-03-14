@@ -133,8 +133,8 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
-   /* Header fix */
-   header {
+  /* Header fix */
+  header {
     padding: 12px 0;
   }
 
@@ -147,27 +147,30 @@ footer {
     margin: 10px 0;
     text-align: center;
   }
-   /* Header fix-end */
+   /* Header fix End */
 
    /* Padding fixed to make article text easier to read */
   main article {
     padding: 18px 20px;
     text-align: center;
   }
-  /* Padding fixed to make article text easier to read-end */
+  /* Padding fixed to make article text easier to read End */
 
   /* making sure text stays inside image banner */
   main > section.hero {
     height: 300px; 
-    padding: 0 16px; 
+    padding: 0 16px;
+    margin-bottom: 12px; 
   }
 
   section.hero > .call-to-action {
     font-size: 1.5rem; 
     padding: 0 20px; 
   }
-  /* making sure text stays inside image banner */
+  /* making sure text stays inside image banner End*/
 
+
+  /* centering images in article*/
   main > article img {
     display: block;           
     margin: 0 auto;          
@@ -175,6 +178,13 @@ footer {
     height: auto;
     margin-bottom: 6px;
   }
+  /* centering images in article End*/
 
-  
+
+  /* fixing bottom margins*/
+  main > article {
+    padding: 48px 96px;
+    margin-bottom: 24px;
+  }
+  /* fixing bottom margins End*/
 }
