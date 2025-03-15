@@ -144,15 +144,16 @@ footer {
 
   nav a {
     display: block; 
-    margin: 10px 0;
+    margin-bottom: 10px 0 !important;
     text-align: center;
   }
    /* Header fix End */
 
    /* Padding fixed to make article text easier to read */
   main article {
-    padding: 18px 20px;
+    padding: 12px 20px;
     text-align: center;
+    margin-bottom: 12px;
   }
   /* Padding fixed to make article text easier to read End */
 
